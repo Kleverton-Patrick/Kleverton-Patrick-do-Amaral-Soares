@@ -1,0 +1,70 @@
+body {
+    padding: 60px;
+    align-items: center;
+}
+
+.centraliza {
+    margin: 0 auto;
+    max-width: 1700px;
+  }
+
+@media screen and (min-width: 1156px) {
+    body {
+        padding-left: 50px;
+        padding-right: 0px; 
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.perfil {
+    max-width: 400px; 
+    border-radius: 20px; 
+    background-color: aliceblue;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.campoInfo {
+    max-width: 700px;
+    border-radius: 20px;
+    border: 2px solid #2186df;
+    padding: 20px; 
+    margin-top: 30px;
+    background-color: rgb(175, 212, 248);
+}
+
+.texto_espac {
+    padding-left: 8px; 
+    padding-right: 1px;
+}
+
+.texto_espac img {
+    max-width: 19px;
+}
+
+.texto {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.textoDest {
+    background-color: #2186df;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 9px;
+}
+
+h6 a {
+    font-size: 14px;
+}
+
+.fotoPerfil {
+    max-width: 100%;   
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    padding-bottom: 20px;
+}
